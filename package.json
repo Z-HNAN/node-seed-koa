@@ -1,0 +1,28 @@
+{
+  "name": "02koa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "koa": "^2.10.0",
+    "koa-router": "^7.4.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.7.5",
+    "qs": "^6.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "nodemon": "^1.19.4"
+  }
+}
