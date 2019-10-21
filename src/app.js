@@ -16,7 +16,7 @@ app.use(bodyParser())
 
 // 连接数据库
 const URL = conf.mongoURL
-mongoose.connect(URL, { useNewUrlParser: true })
+mongoose.connect(URL, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
     console.log(`${now()} connect mongo success`)
   })
