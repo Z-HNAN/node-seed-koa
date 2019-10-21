@@ -12,7 +12,7 @@ const UserSchema = new Schema({
     type: String,
     required: true,
   },
-  avatar: {
+  email: {
     type: String,
   },
   date: {
