@@ -17,3 +17,5 @@ $ yarn start
 
 eslint:airbnb
 
+JWT authentication
+
