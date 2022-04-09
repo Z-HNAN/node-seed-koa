@@ -15,7 +15,7 @@
     "koa": "^2.10.0",
     "koa-bodyparser": "^4.2.1",
     "koa-router": "^7.4.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "mongoose": "^5.7.5",
     "qs": "^6.9.0",
     "saslprep": "^1.0.3"
